@@ -20,7 +20,7 @@ export class TodoComponent implements OnInit {
     console.log(form.value.task);
     let newTodo: Todo = {
       task: form.form.value.task,
-      completed: form.form.value.completed === 'yes',
+      completed:false ,
     };
     this.todos.push(newTodo);
   };
