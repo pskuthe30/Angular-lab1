@@ -25,7 +25,7 @@
         <button class="delete-button" (click)="deleteTask(i)">X</button>
       </li>
     </ol>
-    <form #addForm="ngForm" (ngSubmit)="addTodo(addForm)">
+    <form class="new-task" #addForm="ngForm" (ngSubmit)="addTodo(addForm)">
       <label for="task">Task</label>
       <input type="text" id="task" name="task" ngModel />
       
