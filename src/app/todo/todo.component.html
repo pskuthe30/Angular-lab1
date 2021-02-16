@@ -28,11 +28,7 @@
     <form #addForm="ngForm" (ngSubmit)="addTodo(addForm)">
       <label for="task">Task</label>
       <input type="text" id="task" name="task" ngModel />
-      <p>Completed</p>
-      <label for="yes">True</label>
-      <input type="radio" name="completed" id="yes" value="yes" ngModel />
-      <label for="no">False</label>
-      <input type="radio" name="completed" id="no" value="no" ngModel />
+      
       <button class="add-button">ADD</button>
     </form>
   </section>
